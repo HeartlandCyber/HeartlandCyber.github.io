@@ -1,0 +1,43 @@
+body{
+  color: white;
+  position: absolute; left:0; right: 0;
+  background-image: url("https://learning.heartlandcyberrange.com/theme/cyber_range/elements/dist/elements/browser/media/auth_background-QW4BPCGP.png");
+  background-size: cover; background-attachment: fixed;
+}
+input[type=submit]{
+  background-color: #66cc33;
+  width: 285px; height: 50px;
+  color: white;
+  font-family: Metropolis; font-size: 20px;
+  border-radius: 12px; border: none;}
+input[type=text]{
+  background-color: #ffffff;
+  width: 500px; height: 25px;
+  color: black;
+  padding-left: 10px;
+  font-family: Metropolis; font-size: 12px; font-weight: bold;
+  border-radius: 12px; border: none;}
+select{
+  background-color: #ffffff;
+  width: 510px; height: 25px;
+  color: black;
+  padding-left: 10px;
+  font-family: Metropolis; font-size: 12px; font-weight: bold;
+  border-radius: 12px; border: none;}
+textarea{
+  background-color: #ffffff;
+  width: 500px; height: 100px;
+  color: black;
+  padding-left: 10px;
+  font-family: Metropolis; font-size: 12px; font-weight: bold;
+  border-radius: 12px; border: none;}
+button{
+  background-color: #66cc33;
+  width: 285px; height: 50px;
+  color: white;
+  font-family: Metropolis; font-size: 20px;
+  border-radius: 12px; border: none;}  
+#discordForm {
+}
+#screenshotForm{
+}

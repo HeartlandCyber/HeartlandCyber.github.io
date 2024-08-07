@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heartland Cyber Range Bug Tracker</title>
+    <meta name="author" content="Joey Huggins">
+    <meta name="description" content="Form for submitting issues discovered during testing.">
+    <script src="issues.js" async=""></script>
+    <style>
+body{
+  color: white;
+  position: absolute; left:0; right: 0;
+  background-image: url("https://learning.heartlandcyberrange.com/theme/cyber_range/elements/dist/elements/browser/media/auth_background-QW4BPCGP.png");
+  background-size: cover; background-attachment: fixed;
+}
+input[type=submit]{
+  background-color: #66cc33;
+  width: 285px; height: 50px;
+  color: white;
+  font-family: Metropolis; font-size: 20px;
+  border-radius: 12px; border: none;}
+input[type=text]{
+  background-color: #ffffff;
+  width: 500px; height: 25px;
+  color: black;
+  padding-left: 10px;
+  font-family: Metropolis; font-size: 12px; font-weight: bold;
+  border-radius: 12px; border: none;}
+select{
+  background-color: #ffffff;
+  width: 510px; height: 25px;
+  color: black;
+  padding-left: 10px;
+  font-family: Metropolis; font-size: 12px; font-weight: bold;
+  border-radius: 12px; border: none;}
+textarea{
+  background-color: #ffffff;
+  width: 500px; height: 100px;
+  color: black;
+  padding-left: 10px;
+  font-family: Metropolis; font-size: 12px; font-weight: bold;
+  border-radius: 12px; border: none;}
+button{
+  background-color: #66cc33;
+  width: 285px; height: 50px;
+  color: white;
+  font-family: Metropolis; font-size: 20px;
+  border-radius: 12px; border: none;}  
+#discordForm {
+}
+#screenshotForm{
+}
+</style></head>
+  <body>
+    <h1><span style="font-family: Metropolis; font-size: 48px;" id="background"><img
+
+          src="https://enterprise-kc.com/assets/img/EKC_Logo_White.png" alt="" title="EKC Logo"
+
+          height="5%" width="5%"></span></h1>
+    <h1> </h1>
+    <h1><span style="font-family: Metropolis; font-size: 48px;">Heartland Cyber
+        Range - Bug Tracker</span></h1>
+    <h2><span style="font-family: Metropolis;">Please submit any issues you
+        discover during HCR testing here!</span></h2>
+    <br>
+    <h3> <span style="font-family: Metropolis;">Step 1: Please enter the
+        details for the issue you wish to submit.</span></h3>
+    <form id="discordForm"> <label for="email"><span style="font-family: Gotham;">Email</span>:</label>
+      <br>
+      <input id="email" name="email" size="100" required="" type="text"> <br>
+      <br>
+      <label for="url" style="font-family: Gotham;">URL where the problem was
+        discovered:</label> <br>
+      <input id="url" name="url" size="100" type="text"> <br>
+      <br>
+      <label for="area"><span style="font-family: Gotham;">Area or functionality
+          related to the issue:</span></label> <br>
+      <select id="area" name="area">
+        <option value="">Select an option</option>
+        <option value="courses">Courses and modules</option>
+        <option value="authenticating">Logging in</option>
+        <option value="UI">User interface</option>
+        <option value="other">Other</option>
+      </select>
+      <br>
+      <br>
+      <label for="desc"><span style="font-family: Gotham;">Description of the
+          problem (including steps to recreate):</span></label> <br>
+      <textarea id="desc" name="desc" type="text" cols="98" rows="5" wrap="soft"></textarea>
+      <br>
+      <br>
+      <input value="Submit Details" name="Submit" type="submit"></form>
+    <br>
+    <h3> <span style="font-family: Metropolis;">Step 2: If possible, please
+        upload a screenshot.</span> </h3>
+    <form id="screenshotForm">
+      <p><label for="file"><span style="font-family: Gotham;">Select file:</span></label><br>
+        <input id="file" name="file" required="" type="file"> </p>
+      <p><input value="Submit Screenshot" name="submit" type="submit"></p>
+    </form>
+  </body>
+</html>
