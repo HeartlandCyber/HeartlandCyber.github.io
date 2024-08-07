@@ -49,6 +49,12 @@ select{
   padding-left: 10px;
   font-family: Metropolis; font-size: 12px; font-weight: bold;
   border-radius: 12px; border: none;}
+input:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+input:focus:invalid {
+  box-shadow: none;
+}
 textarea{
   background-color: #ffffff;
   width: 500px; height: 100px;
