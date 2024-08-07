@@ -1,7 +1,7 @@
 body{
   color: white;
   position: absolute; left:0; right: 0;
-  background-image: url("https://learning.heartlandcyberrange.com/theme/cyber_range/elements/dist/elements/browser/media/auth_background-QW4BPCGP.png");
+  background-image: url("https://learning.heartlandcyberrange.com/theme/cyber_range/assets/auth_background.png");
   background-size: cover; background-attachment: fixed;
 }
 input[type=submit]{
